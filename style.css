@@ -1,13 +1,23 @@
+body{
 
-h1{
-    color: blue;
-    text-shadow : 5px 5px 3px hsl(0, 83%, 65%) ; 
+    margin: 0px;
+
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
 
 }
 #box1{
-    width: 100px;
-    height: 100px;
-    background-color:wheat ;
-    box-shadow: 3px 3px 5px;
+
+    background-color: red;
+    margin-top: 50px;
+    margin: auto;
+}
+#box2{
+    background-color: wheat;
+    margin-top: 250px;
 
 }
