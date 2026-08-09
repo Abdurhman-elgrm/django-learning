@@ -5,26 +5,12 @@ body{
 h1{
     font-family: Verdana, Arial ;
     color: antiquewhite;
-}
-#p1{
-    
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: italic;
-    color: blueviolet;
-}
-#p2{
-
-    color: burlywood;
+    border: 3px solid blue ;
 
 }
-#p3{
+p{
 
-    color: chocolate;
-}
-#p4{
-
-    color: green;
-
+    color: rgb(55, 239, 55);
+    border-bottom : solid white ;
+    border-top: solid green;
 }
