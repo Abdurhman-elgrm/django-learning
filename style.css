@@ -1,16 +1,13 @@
-body{
-    background-color: black;
 
-}
 h1{
-    font-family: Verdana, Arial ;
-    color: antiquewhite;
-    border: 3px solid blue ;
+    color: blue;
+    text-shadow : 5px 5px 3px hsl(0, 83%, 65%) ; 
 
 }
-p{
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color:wheat ;
+    box-shadow: 3px 3px 5px;
 
-    color: rgb(55, 239, 55);
-    border-bottom : solid white ;
-    border-top: solid green;
 }
