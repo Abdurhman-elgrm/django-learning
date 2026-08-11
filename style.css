@@ -1,11 +1,17 @@
-.box{
-
-    border: 2px solid;
-    padding: 25px;
-    box-sizing: border-box;
-    height: auto;
-    width: 50%;
-    float: left;
-    text-align: center;
-    max-width: 25%;
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(56, 147, 227);
+    position: static;
+    top: 0px;
+    
+    
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(225, 39, 39);
+    position: absolute;
+    
+    
 }
