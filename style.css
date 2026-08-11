@@ -1,8 +1,8 @@
-body{
-    background-image: url(/images/raphael-schaller-s7B6jin6pIM-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+#container{
+    border: 10px solid;
+    
+}
+#container + p{
 
+    background-color: aqua;
 }
