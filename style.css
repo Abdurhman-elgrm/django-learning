@@ -1,17 +1,8 @@
-#box1{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(56, 147, 227);
-    position: static;
-    top: 0px;
-    
-    
-}
-#box2{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(225, 39, 39);
-    position: absolute;
-    
-    
+body{
+    background-image: url(/images/raphael-schaller-s7B6jin6pIM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
