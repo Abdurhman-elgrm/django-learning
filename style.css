@@ -1,9 +1,28 @@
-li:hover{
-    background-color: yellow;
-
+h1::first-letter{
+    font-size:2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color:beige;
+}
+p::selection{
+    color: aliceblue;
+    background-color: blueviolet;
 
 }
-li:not(:hover){
+#fruits li::before{
+    content: '✔️';
 
-    background-color: aqua;
+}
+#apple::after{
+    content: '🍎';
+
+}
+#orange::after{
+    content: '🟠';
+
+}
+#banana::after{
+    content: '🍌';
+
 }
