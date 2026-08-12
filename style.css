@@ -1,8 +1,9 @@
-#container{
-    border: 10px solid;
-    
+li:hover{
+    background-color: yellow;
+
+
 }
-#container + p{
+li:not(:hover){
 
     background-color: aqua;
 }
