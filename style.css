@@ -2,27 +2,24 @@ h1::first-letter{
     font-size:2em;
     font-style: italic;
 }
-p::first-line{
-    background-color:beige;
+.pagination{
+    text-align: center ;
+ 
 }
-p::selection{
-    color: aliceblue;
-    background-color: blueviolet;
-
+.pagination a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px  15px;
+    display: inline-block;
 }
-#fruits li::before{
-    content: '✔️';
-
+.pagination a.active{
+    background-color: green;
+    font-weight: bold;
+    border-radius: 5px;
 }
-#apple::after{
-    content: '🍎';
-
-}
-#orange::after{
-    content: '🟠';
-
-}
-#banana::after{
-    content: '🍌';
+.pagination a:hover:not(.active){
+    background-color: rgb(152, 157, 152);
+    font-weight: bold;
+    border-radius: 5px;
 
 }
