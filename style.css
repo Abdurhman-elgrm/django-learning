@@ -1,25 +1,28 @@
-h1::first-letter{
-    font-size:2em;
-    font-style: italic;
+.dropdown button {
+
+    background-color: blue;
+    color: blueviolet;
+    padding: 10px 15px ;
+    border: none;
+    cursor: pointer;   
 }
-.pagination{
-    text-align: center ;
- 
-}
-.pagination a{
-    color: rgb(0, 0, 0);
+.dropdown a{
+
+    display: block;
+    color: black;
     text-decoration: none;
-    padding: 8px  15px;
-    display: inline-block;
+    padding: 10px 15px ;
 }
-.pagination a.active{
-    background-color: green;
-    font-weight: bold;
-    border-radius: 5px;
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(235, 168, 80);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsl(0, 0%, 0%);
+
 }
-.pagination a:hover:not(.active){
-    background-color: rgb(152, 157, 152);
-    font-weight: bold;
-    border-radius: 5px;
+.dropdown:hover .content {
+
+    display: block;
 
 }
